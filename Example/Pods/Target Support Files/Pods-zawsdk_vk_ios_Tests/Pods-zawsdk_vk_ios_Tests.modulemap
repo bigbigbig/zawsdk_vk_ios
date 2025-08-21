@@ -1,0 +1,6 @@
+framework module Pods_zawsdk_vk_ios_Tests {
+  umbrella header "Pods-zawsdk_vk_ios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

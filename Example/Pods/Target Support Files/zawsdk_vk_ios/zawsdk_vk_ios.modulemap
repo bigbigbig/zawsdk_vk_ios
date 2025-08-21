@@ -1,0 +1,6 @@
+framework module zawsdk_vk_ios {
+  umbrella header "zawsdk_vk_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

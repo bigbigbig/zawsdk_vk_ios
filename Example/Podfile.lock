@@ -1,0 +1,55 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.7)
+  - VKCaptchaSDK (0.1.1)
+  - VKID (2.7.0):
+    - VKCaptchaSDK (= 0.1.1)
+    - VKIDCore (= 2.7.0)
+  - VKIDCore (2.7.0):
+    - VKCaptchaSDK (= 0.1.1)
+  - zawsdk_vk_ios (0.4.0):
+    - VKID (= 2.7.0)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - Specta
+  - zawsdk_vk_ios (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+    - VKCaptchaSDK
+    - VKID
+    - VKIDCore
+
+EXTERNAL SOURCES:
+  zawsdk_vk_ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  VKCaptchaSDK: 35a893326f08e9bfd467c680cb83ff984357068b
+  VKID: 3fc9c558091f63176a231ad1b07f60157c64a155
+  VKIDCore: 7a87a4358d53347fd4696334e884ac1c33fe116b
+  zawsdk_vk_ios: e56a4cd11dd91c48fdd32f013740dc4a673460c5
+
+PODFILE CHECKSUM: 77f2db4fe14168aff05aaa0aeb1171a1e2a084fc
+
+COCOAPODS: 1.16.2

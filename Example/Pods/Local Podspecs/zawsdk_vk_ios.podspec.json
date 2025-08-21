@@ -1,0 +1,37 @@
+{
+  "name": "zawsdk_vk_ios",
+  "version": "0.4.0",
+  "summary": "zawsdk vk part for ios",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bigbigbig/zawsdk_vk_ios.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bigbigbig": "1046724509@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/bigbigbig/zawsdk_vk_ios.git",
+    "tag": "0.4.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "zawsdk_vk_ios/Classes/**/*",
+  "swift_versions": [
+    "5.0"
+  ],
+  "static_framework": true,
+  "public_header_files": "zawsdk_vk_ios/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "VKID": [
+      "2.7.0"
+    ]
+  },
+  "swift_version": "5.0"
+}
