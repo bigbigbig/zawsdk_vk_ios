@@ -11,13 +11,13 @@ PODS:
     - FBSnapshotTestCase/Core
   - Specta (1.0.7)
   - VKCaptchaSDK (0.1.1)
-  - VKID (2.7.0):
+  - VKID (2.7.1):
     - VKCaptchaSDK (= 0.1.1)
-    - VKIDCore (= 2.7.0)
-  - VKIDCore (2.7.0):
+    - VKIDCore (= 2.7.1)
+  - VKIDCore (2.7.1):
     - VKCaptchaSDK (= 0.1.1)
-  - zawsdk_vk_ios (0.4.0):
-    - VKID (= 2.7.0)
+  - zawsdk_vk_ios (0.0.2):
+    - VKID (= 2.7.1)
 
 DEPENDENCIES:
   - Expecta
@@ -46,9 +46,9 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   VKCaptchaSDK: 35a893326f08e9bfd467c680cb83ff984357068b
-  VKID: 3fc9c558091f63176a231ad1b07f60157c64a155
-  VKIDCore: 7a87a4358d53347fd4696334e884ac1c33fe116b
-  zawsdk_vk_ios: e56a4cd11dd91c48fdd32f013740dc4a673460c5
+  VKID: 2c0fdf40c4f7db09fa9c46d640662fbb78b0c7e1
+  VKIDCore: 4d8e37248da1bd4772ab08082f877ed55706e543
+  zawsdk_vk_ios: d945cd4860b8d7ced8a2916e8186973ccdc6c544
 
 PODFILE CHECKSUM: 77f2db4fe14168aff05aaa0aeb1171a1e2a084fc
 

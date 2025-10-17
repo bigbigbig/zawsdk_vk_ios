@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zawsdk_vk_ios'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'zawsdk vk part for ios'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.public_header_files = 'zawsdk_vk_ios/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  s.dependency 'VKID', '2.7.0'
+  s.dependency 'VKID', '2.7.1'
 
   # s.resource_bundles = {
   #   'zawsdk_vk_ios' => ['zawsdk_vk_ios/Assets/*.png']
